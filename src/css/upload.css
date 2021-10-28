@@ -1,0 +1,64 @@
+.sign{
+
+
+text-align: center;
+border: 1px solid;
+width: 70%;
+margin-left: 15%;
+
+}
+
+
+select
+{
+
+width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+  background-color: lightblue;
+
+}
+
+input[type=text] 
+{
+
+width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+
+input[type=password] 
+{
+
+width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+
+input[type=submit] 
+{
+
+width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+
+
+
+input[type=file] 
+{
+
+width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
