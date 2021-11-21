@@ -86,6 +86,7 @@ Image name: varchar
 Image: path
 ```
 
+<img width="588" alt="Screen Shot 2021-11-21 at 11 48 24 AM" src="https://user-images.githubusercontent.com/53684246/142771222-30e8b801-fa5c-4deb-9bbc-416cc0bb5b31.png">
 
 
 **Group member:** Rosali Gonzalez
