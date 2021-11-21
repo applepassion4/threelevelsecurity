@@ -62,6 +62,28 @@ When storing n (during registration), they will be encrypted with the following 
  
  <img width="966" alt="Screen Shot 2021-11-21 at 11 33 25 AM" src="https://user-images.githubusercontent.com/53684246/142770854-0a3fbc13-1886-424e-b55d-8bc45135d6bb.png"> 
 
+The e(n) will be the one being stored into the database appended with the sha1 value of the image name computed, upon retrieval, the numbers will be sent in the form of e(n), be decrypted and pushed into the array.
+
+The user will then choose every images to where the 3 numbers appear, sha1 of the each corresponding image is also computed and stored in the database together with the number appended to it as string, note that the numbers are the main subject together with the images.
+
+The number selected will be put in an array. The array will then have all its member encrypted with the defined algorithm and the appended string of the sha1 of the image then a generated random one time nonce will be added to each member of the encrypted array. The array will then be compared for similarity with the array containing the 3 encrypted numbers in the database corresponding to the user( the nonce will be added to them too ) if there is similarity (100%) the user will be allowed in; or else he will be redirected to the password page and the number of failed attempt will be incremented by 1 (when the number of attempts reach 3 or above the account will be blocked).
+
+The password and passphrase will be stored in hashed form and timestamp will used to verify if the password or passphrase is being replayed (<3 minutes)
+The database will have two tables, table user and table images.
+
+```
+User table
+Username : it’s a varchar in the database,
+password : varchar
+passphrase: text
+number1: int ; number2: int; number3: int
+attempted: int
+timestamp: time
+Image table
+Image ID: int
+Image name: varchar
+Image: path
+```
 
 
 **Group member:** Rosali Gonzalez
