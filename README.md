@@ -79,11 +79,13 @@ passphrase: text
 number1: int ; number2: int; number3: int
 attempted: int
 timestamp: time
-Image table
+```
+```Image table
 Image ID: int
 Image name: varchar
 Image: path
 ```
+
 
 
 **Group member:** Rosali Gonzalez
