@@ -6,6 +6,7 @@
   - [Project description](#project-description)
   - [Project analysis](#problem-analysis)
   - [Program Design](#program-design)
+  - [Process Description](#process-description)
  
 
 
@@ -88,6 +89,9 @@ Image: path
 
 <img width="588" alt="Screen Shot 2021-11-21 at 11 48 24 AM" src="https://user-images.githubusercontent.com/53684246/142771222-30e8b801-fa5c-4deb-9bbc-416cc0bb5b31.png">
 
+**Proces Description:**
+
+At the moment the hash algorithm are the one being finetuned and then process for checking the images will be next.
 
 **Group member:** Rosali Gonzalez
 
