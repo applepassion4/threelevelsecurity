@@ -60,9 +60,8 @@ Let n be the number associated to the image, there will be 10 of them, 7 number 
 When storing n (during registration), they will be encrypted with the following algorithm:
  
  
+ <img width="966" alt="Screen Shot 2021-11-21 at 11 33 25 AM" src="https://user-images.githubusercontent.com/53684246/142770854-0a3fbc13-1886-424e-b55d-8bc45135d6bb.png"> 
 
- ``` <img width="966" alt="Screen Shot 2021-11-21 at 11 33 25 AM" src="https://user-images.githubusercontent.com/53684246/142770854-0a3fbc13-1886-424e-b55d-8bc45135d6bb.png"> 
- ```
 
 
 **Group member:** Rosali Gonzalez
