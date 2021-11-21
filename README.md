@@ -39,6 +39,12 @@ This login page has no safeguards against password guessing attacks (brute force
    * The concept of passphrase is the same as the one for the password but upon failure the user will need to renter the password to access the passphrase page again (the number of attempter will be recorded and increased at each failure)
    * Upon success on the passphrase page, the user will access the image page.
  
+In the database there will be 40 different images that will be chosen randomly each time a user arrives on the image pages the user will be presented with 10 different images chosen randomly, such images will be accompanied with a number.
+
+Let n be the number associated to the image, there will be 10 of them, 7 number will be randomly generated ranging from 0 to 9 and the other 3 are the ones linked to the user. The seven numbers will be kept in an array, after which the other will be pushed in the said array at the back.
+
+When storing n (during registration), they will be encrypted with the following algorithm:
+
 
 **Conclusions:**
 
