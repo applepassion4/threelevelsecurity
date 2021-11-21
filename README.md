@@ -25,17 +25,20 @@ This login page has no safeguards against password guessing attacks (brute force
 **Program Design:**
 
 1. Have a unique code given to the user by the system administrator, the code is a one time use and will not work when used twice for the same purpose. The code will be asked by the system during the registration process
+
 2. During the registration the user will be asked to code the following details:
-   • A unique username (not already existing in the system)
-   • A password (At least 8 characters with one uppercase, lowercase and symbols, numbers) the password is stored after being hashed as SHA1
-   • A passphrase with at least 16 characters with white spaces, upper cases, numbers, it’s also stored after being hashed as md5
-   • Three different numbers ranging from 1 to 9
-   • The confirmation code mentioned above
+   * A unique username (not already existing in the system)
+   * A password (At least 8 characters with one uppercase, lowercase and symbols, numbers) the password is stored after being hashed as SHA1
+   * A passphrase with at least 16 characters with white spaces, upper cases, numbers, it’s also stored after being hashed as md5
+   * Three different numbers ranging from 1 to 9
+   * The confirmation code mentioned above
+   
 3. Upon successful registration the user can login and and access the system services
 
-   • First the user will need to give the username and correct password, upon success the user will be redirected to page that ask for the user’s passphrase. If the username and password(hashed password) do not match the number of failed attempt will incremented by 1 ( if the failed attempts are equal or above 3, this user will be temporary blocked)
-  • The concept of passphrase is the same as the one for the password but upon failure the user will need to renter the password to access the passphrase page again (the number of attempter will be recorded and increased at each failure)
-  • Upon success on the passphrase page, the user will access the image page.
+   * First the user will need to give the username and correct password, upon success the user will be redirected to page that ask for the user’s passphrase. If the username and password(hashed password) do not match the number of failed attempt will incremented by 1 ( if the failed attempts are equal or above 3, this user will be temporary blocked)
+   * The concept of passphrase is the same as the one for the password but upon failure the user will need to renter the password to access the passphrase page again (the number of attempter will be recorded and increased at each failure)
+   * Upon success on the passphrase page, the user will access the image page.
+ 
 
 **Conclusions:**
 
