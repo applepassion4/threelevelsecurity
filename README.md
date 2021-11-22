@@ -14,9 +14,7 @@ When transmitting electronic data, the most common use of cryptography is to enc
   - [Project Analysis](#problem-analysis)
   - [Program Design](#program-design)
   - [Process Description](#process-description)
-  - [Conclusions](#conclusions)
- 
-
+  
 
 **Project Description:**
 
@@ -86,14 +84,6 @@ Image: path
 **Proces Description:**
 
 At the moment the hash algorithm are the one being finetuned and then process for checking the images will be next.
-
-**Conclusions:**
-
-* General correlation over all years is weaker than individual years
-* Moderate positive correlation for several mortality categories
-* Correlations between ethanol consumption and mortality rates associated with cirrhosis and mental/substance use moderate over multiple years
-* Ethanol consumption in the US has changed over the years analyzed - curious drop in consumption from 1980 to 1995
-* Negative correlations between ethanol consumption and mortality rates associated with cardio and diabetes
 
 **Group member:** Rosali Gonzalez rc1052
 
