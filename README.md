@@ -10,11 +10,22 @@ When transmitting electronic data, the most common use of cryptography is to enc
 
 ## Table of contents
 
+  - [Requirements & Functionality (#requirements-functionality)
   - [Project Description](#project-description)
   - [Project Analysis](#problem-analysis)
   - [Program Design](#program-design)
   - [Process Description](#process-description)
   
+  
+**Requirements & Functionality:**
+
+## Install the webserver 
+	Xamp was tested and worked well 
+## Install mysql database 
+	This is also given in the Xamp setup (Php myadmin )
+Create the database using the file given by running the php files,  db and create  alternatively the myql file can be put in the myql folder of the dabase
+Copy the htdocs in the webserver folder to be served
+
 
 **Project Description:**
 
